@@ -2,27 +2,55 @@
     font-size: 85%;
 }
 
-#superRanking th, .brandName {
+#superRanking th, #superRanking .brandName {
     font-weight: 600;
 }
 
+#superRanking .brandName {
+    font-size: 120%;
+}
 
 #superRanking .moreInfoBrand {
     font-size: 90%;
 }
 
-.scoreCel {
-    font-weight: bold;  
+#superRanking .brandCol img {
+    max-width: none; 
+    width: 120px; 
+    height: 1px;
 }
 
-.scoreYellow {
-    color: yellow;
+#superRanking .scoreCol img {
+    max-width: none; 
+    width: 90px; 
+    height: 1px;
 }
 
-.scoreOrange {
-    color: orange;
+#superRanking .criteriaCol img {
+    max-width: none; 
+    width: 100px; 
+    height: 1px;
 }
 
-.scoreRed {
-    color: red;
+#superRanking .scoreCel {
+    font-family: "Rubik", "Source Sans Pro", "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 170%;
+}
+
+#superRanking .criteriaCol {
+    font-size: 80%;
+    line-height: 140%;
+}
+
+#superRanking .scoreYellow {
+    color: #FFE19F;
+}
+
+#superRanking .scoreOrange {
+    color: #FFA000;
+}
+
+#superRanking .scoreRed {
+    color: #FF4D16;
 }
