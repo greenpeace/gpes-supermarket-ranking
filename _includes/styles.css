@@ -1,3 +1,28 @@
 #superRanking {
     font-size: 85%;
 }
+
+#superRanking th, .brandName {
+    font-weight: 600;
+}
+
+
+#superRanking .moreInfoBrand {
+    font-size: 90%;
+}
+
+.scoreCel {
+    font-weight: bold;  
+}
+
+.scoreYellow {
+    color: yellow;
+}
+
+.scoreOrange {
+    color: orange;
+}
+
+.scoreRed {
+    color: red;
+}
