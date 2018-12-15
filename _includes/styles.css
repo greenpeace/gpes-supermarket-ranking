@@ -4,6 +4,12 @@
     margin-bottom: 1em;
 }
 
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
 /* Typography */
 
 .rankingTitle {
