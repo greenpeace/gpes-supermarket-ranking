@@ -1,4 +1,22 @@
+#rankingContainer {
+    background-color: #fff;
+    padding: 1em 1em 0.5em 1em;
+    margin-bottom: 1em;
+}
+
 /* Typography */
+
+.rankingTitle {
+    font-size: 1.5em !important;
+}
+
+#rankingContainer .rankingFooter {
+    font-size: 90% !important;
+}
+
+.rankingFooter h3 {
+    font-size: 110% !important;
+}
 
 #superRanking {
     font-size: 85%;
@@ -31,6 +49,11 @@
     font-weight: 700 !important;
 }
 
+.ranking-modal .modal-content p {
+    font-size: 80%;
+    line-height: 130%;
+}
+
 /* Boxing and spacing */
 
 #superRanking td {
@@ -39,7 +62,7 @@
 
 #superRanking .brandCol img {
     max-width: none; 
-    width: 120px; 
+    width: 95px; 
     height: 1px;
 }
 
