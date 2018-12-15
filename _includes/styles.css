@@ -43,14 +43,22 @@
     line-height: 140%;
 }
 
-#superRanking .scoreYellow {
+.scoreYellow {
     color: #FFE19F;
 }
 
-#superRanking .scoreOrange {
+.scoreOrange {
     color: #FFA000;
 }
 
-#superRanking .scoreRed {
+.scoreRed {
     color: #FF4D16;
+}
+
+.rankingClose {
+    padding: 10px 15px 0 0;
+}
+
+.rankingModalTitle {
+    margin-bottom: 1em;
 }
