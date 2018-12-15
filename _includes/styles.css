@@ -55,6 +55,10 @@
     color: #FF4D16;
 }
 
+.ranking-modal h3 {
+    font-weight: 700 !important;
+}
+
 .rankingClose {
     padding: 10px 15px 0 0;
 }
@@ -62,3 +66,4 @@
 .rankingModalTitle {
     margin-bottom: 1em;
 }
+
