@@ -140,3 +140,9 @@
 .rowElCorteIngles {
     background-color: rgba(0, 115, 47 , 0.07); 
 }
+
+/* Logos */
+
+.ranking-modal .superMarketLogo {
+    width: 130px;
+}
