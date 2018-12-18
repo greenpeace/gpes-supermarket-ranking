@@ -96,15 +96,18 @@
 /* Score colors */
 
 .scoreGreen {
-    color: #AFBD2B;
+    color: #FFD800;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .scoreOrange {
     color: #FFA000;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .scoreRed {
     color: #FF4D16;
+    text-shadow: 1px 1px 1px #000;
 }
 
 /* Row background color */
