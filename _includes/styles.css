@@ -61,6 +61,10 @@
     line-height: 130%;
 }
 
+.rankingCaption {
+    font-size: 85%;
+}
+
 /* Boxing and spacing */
 
 #superRanking td {
@@ -87,6 +91,10 @@
 
 .rankingClose {
     padding: 10px 15px 0 0;
+}
+
+.rankingCaption {
+    margin:  0.5em 0 2em 0;
 }
 
 .rankingModalTitle {
@@ -153,4 +161,8 @@
 
 #superRanking .superMarketLogo {
     width: 90px;
+}
+
+#rankingContainer small {
+    color: rebeccapurple;
 }
