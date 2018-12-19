@@ -95,7 +95,7 @@
 
 /* Score colors */
 
-.scoreGreen {
+.scoreYellow {
     color: #ECE10A;
 }
 
@@ -105,6 +105,10 @@
 
 .scoreRed {
     color: #E00000;
+}
+
+.scoreGreen {
+    color: #66cc00;
 }
 
 /* Row background color */
