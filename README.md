@@ -6,7 +6,7 @@ Altrough I've build it for the Spanish office as a tool that complements our own
 
 It includes, as an example, a responsive vectorial infographic. Developers should replace it by their own work.
 
-And please remmeber: html interactives, infographics and graphics are content that you add to your own site. **Content, not functionality.**
+**A word of advice:** html interactives, infographics and graphics are content that you add to your own site. Content, not functionality.
 
 ## Develop an html interactive
 
@@ -31,7 +31,7 @@ jekyll serve
 
 To publish in production we normally upload this type of projects to the media library and include them in our site using our own **[Wordpress plugin](https://github.com/greenpeace/gpes-import-wp-shortcodes)**. It's just one way of doing it ;-)
 
-## Add more page templates
+## Add your page templates
 
 You can add more templates / site pages to this repo:
 
@@ -50,5 +50,6 @@ You can add more templates / site pages to this repo:
 ```
 
 4. Duplicate the file `gpes-blog.html` **in the root of this repo's folder**. Rename and modify to work with your template.
-5. Build and test
+5. Build and test. Make sure all the CSS, JS And images load from your localserver.
 
+For more information look at the examples already in the repo.
