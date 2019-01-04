@@ -125,20 +125,28 @@
 
 /* Score colors */
 
-.scoreYellow {
-    color: #ECE10A;
+.scoreMuyMalo {
+    color: #ba0000;
 }
 
-.scoreOrange {
-    color: #F38D1B;
-}
-
-.scoreRed {
+.scoreInsuficiente {
     color: #E00000;
 }
 
-.scoreGreen {
+.scoreNecesitaMejorar {
+    color: #F38D1B;
+}
+
+.scoreAvanza {
+    color: #ECE10A;
+}
+
+.scoreBueno {
     color: #66cc00;
+}
+
+.scoreMuyBueno {
+    color: #4a9300;
 }
 
 /* Row background color */
