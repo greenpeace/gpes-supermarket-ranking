@@ -131,11 +131,11 @@
 }
 
 .scoreMuyMalo {
-    color: #ba0000;
+    color: #b60202;
 }
 
 .scoreInsuficiente {
-    color: #E00000;
+    color: #ec0909;
 }
 
 .scoreNecesitaMejorar {
@@ -151,7 +151,7 @@
 }
 
 .scoreMuyBueno {
-    color: #4a9300;
+    color: #016201;
 }
 
 /* Row background color */
