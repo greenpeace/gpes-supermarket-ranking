@@ -125,6 +125,11 @@
 
 /* Score colors */
 
+.trafficLight {
+    font-size: 260%;
+    vertical-align: middle;
+}
+
 .scoreMuyMalo {
     color: #ba0000;
 }
