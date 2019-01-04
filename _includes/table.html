@@ -5,7 +5,7 @@
 
     <div class="float-left"><img src="assets/icons/l-arrow.svg" alt="Flecha a la izquierda" id="rankingArrowLeft" /></div>
     <div class="float-right"><img src="assets/icons/r-arrow.svg" alt="Flecha a la derecha" id="rankingArrowRight" /></div>
-
+    <div class="text-center scrollMsg">Haz scroll &larr; &rarr; para consultar la tabla</div>
     <div id="table-responsive" class="table-responsive table-wrapper">
         <table class="table" id="superRanking">
             <thead>
@@ -186,14 +186,29 @@
         </table>
     </div>
     
-    <div class="rankingCaption">
-        <span class="scoreMuyMalo">&block;</span> 0-2 Muy malo &nbsp;
-        <span class="scoreInsuficiente">&block;</span> 2-4 Insuficiente &nbsp;
-        <span class="scoreNecesitaMejorar">&block;</span> 4-5 Necesita mejorar &nbsp;
-        <span class="scoreAvanza">&block;</span> 5-6.5 Avanza &nbsp;
-        <span class="scoreBueno">&block;</span> 6.5-8 Bueno
-        <span class="scoreMuyBueno">&block;</span> 8-10 Muy bueno
-        <span style="font-size: 75%;">&rarr; Falta layout</span>
+    <div class="rankingCaption row">
+        <div class="col-sm-6">
+            <div>
+                <span class="scoreMuyMalo">&block;</span> 0-2 &rarr; Muy malo
+            </div>
+            <div>
+                <span class="scoreInsuficiente">&block;</span> 2-4 &rarr; Insuficiente
+            </div>
+            <div>
+                <span class="scoreNecesitaMejorar">&block;</span> 4-5 &rarr; Necesita mejorar
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div>
+                <span class="scoreAvanza">&block;</span> 5-6,5 &rarr; Avanza
+            </div>
+            <div>
+                <span class="scoreBueno">&block;</span> 6,5-8 &rarr; Bueno
+            </div>
+            <div>
+                <span class="scoreMuyBueno">&block;</span> 8-10 &rarr; Muy bueno
+            </div>
+        </div>
     </div>
 
     <div class="rankingFooter">

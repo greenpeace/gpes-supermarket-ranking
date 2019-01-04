@@ -12,6 +12,10 @@
     overflow-x: auto;
 }
 
+.table th {
+    border-top: none;
+}
+
 /* Typography */
 
 .rankingTitle {
@@ -75,6 +79,12 @@
 
 .rankingCaption {
     font-size: 85%;
+}
+
+.scrollMsg {
+    color: #aaa;
+    font-size: 80%;
+    padding: 3px;
 }
 
 /* Boxing and spacing */
