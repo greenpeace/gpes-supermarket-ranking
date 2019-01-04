@@ -27,6 +27,16 @@
     font-size: 110% !important;
 }
 
+#rankingContainer .intro {
+    text-align: center;
+    font-size: 90%;
+}
+
+.ranking-modal .nota_final {
+    font-size: 60%;
+    line-height: 140%;
+}
+
 #superRanking {
     font-size: 85%;
 }
