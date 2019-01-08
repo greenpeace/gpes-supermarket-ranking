@@ -195,11 +195,12 @@
 }
 
 .rowAlcampo {
-    background-color: rgba(31, 39, 96 , 0.07);
+
+    background-color: rgba(173, 182, 203, 0.1);
 }
 
 .rowElCorteIngles {
-    background-color: rgba(173, 182, 203, 0.1);
+    background-color: rgba(31, 39, 96 , 0.07);
 }
 
 /* Logos */
