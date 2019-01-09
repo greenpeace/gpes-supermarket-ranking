@@ -13,58 +13,58 @@
                     <th scope="col">#</th>
                     <th scope="col" class="brandCol">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <br />Marca
+                        <br />{{ page.table_cols.col_1 }}
                     </th>
                     <th scope="col" class="scoreCol">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <br />Puntuación final sobre 10
+                        <br />{{ page.table_cols.col_2 }}
                     </th>
                     <th scope="col" class="criteriaCol">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <br />Plan para eliminar plásticos de un solo uso (2025)
+                        <br />{{ page.table_cols.col_3 }}
                     </th>
                     <th scope="col" class="criteriaCol">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <br />Fomenta los envases reutilizables
+                        <br />{{ page.table_cols.col_4 }}
                     </th>
                     <th scope="col" class="criteriaCol">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <br />No fomenta las  falsas soluciones
+                        <br />{{ page.table_cols.col_5 }}
                     </th>
                     <th scope="col" class="criteriaCol">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <br />Fruta y verdura a granel
+                        <br />{{ page.table_cols.col_6 }}
                     </th>
                     <th scope="col" class="criteriaCol">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <br />Fomenta la venta a granel en otros productos
+                        <br />{{ page.table_cols.col_7 }}
                     </th>
                     <th scope="col" class="criteriaCol">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <br />Elimina bolsas de un solo uso
+                        <br />{{ page.table_cols.col_8 }}
                     </th>
                     <th scope="col" class="criteriaCol">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <br />Elimina otros plásticos de un solo uso (no envases)
+                        <br />{{ page.table_cols.col_9 }}
                     </th>
                     <th scope="col" class="criteriaCol">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <br />Transparente sobre su huella plástica
+                        <br />{{ page.table_cols.col_10 }}
                     </th>
                     <th scope="col" class="criteriaCol">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <br />Trabaja con proveedores para eliminar plásticos
+                        <br />{{ page.table_cols.col_11 }}
                     </th>
                     <th scope="col" class="criteriaCol">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <br />Fomenta envases 100% reciclables
+                        <br />{{ page.table_cols.col_12 }}
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="rowEroski">
                     <th scope="row">1</th>
-                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/eroski.png" alt="Eroski" class="superMarketLogo" /></span><br /><a data-toggle="modal" data-target="#descEroski" href="javascript:void(0);" class="moreInfoBrand">Más info...</a></td>
+                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/eroski.png" alt="Eroski" class="superMarketLogo" /></span><br /><a data-toggle="modal" data-target="#descEroski" href="javascript:void(0);" class="moreInfoBrand">{{ page.more_info }}</a></td>
                     <td class="scoreCel scoreAvanza">6,2</td>
                     <td>6,5 <span class="trafficLight scoreBueno">&bull;</span></td>
                     <td>6,5 <span class="trafficLight scoreBueno">&bull;</span></td>
@@ -79,7 +79,7 @@
                 </tr>
                 <tr class="rowAldi">
                     <th scope="row">2</th>
-                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/aldi.png" alt="Aldi" class="superMarketLogo" alt="Aldi" /></span><br /><a data-toggle="modal" data-target="#descAldi" href="javascript:void(0);" class="moreInfoBrand">Más info...</a></td>
+                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/aldi.png" alt="Aldi" class="superMarketLogo" alt="Aldi" /></span><br /><a data-toggle="modal" data-target="#descAldi" href="javascript:void(0);" class="moreInfoBrand">{{ page.more_info }}</a></td>
                     <td class="scoreCel scoreAvanza">5,6</td>
                     <td>4,0 <span class="trafficLight scoreNecesitaMejorar">&bull;</span></td>
                     <td>6,8 <span class="trafficLight scoreBueno">&bull;</span></td>
@@ -94,7 +94,7 @@
                 </tr>
                 <tr class="rowMercadona">
                     <th scope="row">3</th>
-                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/mercadona.png" alt="Mercadona" class="superMarketLogo" /></span><br /><a data-toggle="modal" data-target="#descMercadona" href="javascript:void(0);" class="moreInfoBrand">Más info...</a></td>
+                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/mercadona.png" alt="Mercadona" class="superMarketLogo" /></span><br /><a data-toggle="modal" data-target="#descMercadona" href="javascript:void(0);" class="moreInfoBrand">{{ page.more_info }}</a></td>
                     <td class="scoreCel scoreAvanza">5,1</td>
                     <td>5,5 <span class="trafficLight scoreAvanza">&bull;</span></td>
                     <td>6,5 <span class="trafficLight scoreBueno">&bull;</span></td>
@@ -109,7 +109,7 @@
                 </tr>
                 <tr class="rowLidl">
                     <th scope="row">4</th>
-                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/lidl.png" alt="Lidl" class="superMarketLogo" /></span><br /><a data-toggle="modal" data-target="#descLidl" href="javascript:void(0);" class="moreInfoBrand">Más info...</a></td>
+                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/lidl.png" alt="Lidl" class="superMarketLogo" /></span><br /><a data-toggle="modal" data-target="#descLidl" href="javascript:void(0);" class="moreInfoBrand">{{ page.more_info }}</a></td>
                     <td class="scoreCel scoreNecesitaMejorar">4,7</td>
                     <td>6,5 <span class="trafficLight scoreBueno">&bull;</span></td>
                     <td>4,0 <span class="trafficLight scoreNecesitaMejorar">&bull;</span></td>
@@ -124,7 +124,7 @@
                 </tr>
                 <tr class="rowDia">
                     <th scope="row">5</th>
-                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/dia.png" alt="Dia" class="superMarketLogo" /></span><br /><a data-toggle="modal" data-target="#descDia" href="javascript:void(0);" class="moreInfoBrand">Más info...</a></td>
+                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/dia.png" alt="Dia" class="superMarketLogo" /></span><br /><a data-toggle="modal" data-target="#descDia" href="javascript:void(0);" class="moreInfoBrand">{{ page.more_info }}</a></td>
                     <td class="scoreCel scoreNecesitaMejorar">4,6</td>
                     <td>6,0 <span class="trafficLight scoreAvanza">&bull;</span></td>
                     <td>3,0 <span class="trafficLight scoreInsuficiente">&bull;</span></td>
@@ -139,7 +139,7 @@
                 </tr>
                 <tr class="rowCarrefour">
                     <th scope="row">6</th>
-                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/carrefour.png" alt="Carrefour" class="superMarketLogo" /></span><br /><a data-toggle="modal" data-target="#descCarrefour" href="javascript:void(0);" class="moreInfoBrand">Más info...</a></td>
+                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/carrefour.png" alt="Carrefour" class="superMarketLogo" /></span><br /><a data-toggle="modal" data-target="#descCarrefour" href="javascript:void(0);" class="moreInfoBrand">{{ page.more_info }}</a></td>
                     <td class="scoreCel scoreNecesitaMejorar">4,2</td>
                     <td>5,5 <span class="trafficLight scoreAvanza">&bull;</span></td>
                     <td>5,0 <span class="trafficLight scoreAvanza">&bull;</span></td>
@@ -154,7 +154,7 @@
                 </tr>
                 <tr class="rowAlcampo">
                     <th scope="row">7</th>
-                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/alcampo.png" class="superMarketLogo" alt="Alcampo" /></span><br /><a data-toggle="modal" data-target="#descAlcampo" href="javascript:void(0);" class="moreInfoBrand">Más info...</a></td>
+                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/alcampo.png" class="superMarketLogo" alt="Alcampo" /></span><br /><a data-toggle="modal" data-target="#descAlcampo" href="javascript:void(0);" class="moreInfoBrand">{{ page.more_info }}</a></td>
                     <td class="scoreCel scoreInsuficiente">3,5</td>
                     <td>3,9 <span class="trafficLight scoreInsuficiente">&bull;</span></td>
                     <td>3,5 <span class="trafficLight scoreInsuficiente">&bull;</span></td>
@@ -169,7 +169,7 @@
                 </tr>
                 <tr class="rowElCorteIngles">
                     <th scope="row">8</th>
-                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/corte-ingles.png" alt="El Corte Inglés" class="superMarketLogo" /></span><br /><a data-toggle="modal" data-target="#descCorteIngles" href="javascript:void(0);" class="moreInfoBrand">Más info...</a></td>
+                    <td class="brandCel"><span class="brandName"><img src="https://storage.googleapis.com/gpes-static/ranking-supermercados-2019/logos/corte-ingles.png" alt="El Corte Inglés" class="superMarketLogo" /></span><br /><a data-toggle="modal" data-target="#descCorteIngles" href="javascript:void(0);" class="moreInfoBrand">{{ page.more_info }}</a></td>
                     <td class="scoreCel scoreInsuficiente">3,4</td>
                     <td>3,9 <span class="trafficLight scoreInsuficiente">&bull;</span></td>
                     <td>3,5 <span class="trafficLight scoreInsuficiente">&bull;</span></td>
@@ -189,24 +189,24 @@
     <div class="rankingCaption row">
         <div class="col-sm-6 6u 12u$(small)">
             <div>
-                <span class="scoreMuyMalo">&block;</span> 0-2 &rarr; Muy malo
+                <span class="scoreMuyMalo">&block;</span> 0-2 &rarr; {{ page.scale.s_0_2 }}
             </div>
             <div>
-                <span class="scoreInsuficiente">&block;</span> 2-4 &rarr; Insuficiente
+                <span class="scoreInsuficiente">&block;</span> 2-4 &rarr; {{ page.scale.s_2_4 }}
             </div>
             <div>
-                <span class="scoreNecesitaMejorar">&block;</span> 4-5 &rarr; Necesita mejorar
+                <span class="scoreNecesitaMejorar">&block;</span> 4-5 &rarr; {{ page.scale.s_4_5 }}
             </div>
         </div>
         <div class="col-sm-6 6u 12u$(small)">
             <div>
-                <span class="scoreAvanza">&block;</span> 5-6,5 &rarr; Avanza
+                <span class="scoreAvanza">&block;</span> 5-6,5 &rarr; {{ page.scale.s_5_65 }}
             </div>
             <div>
-                <span class="scoreBueno">&block;</span> 6,5-8 &rarr; Bueno
+                <span class="scoreBueno">&block;</span> 6,5-8 &rarr; {{ page.scale.s_65_8 }}
             </div>
             <div>
-                <span class="scoreMuyBueno">&block;</span> 8-10 &rarr; Muy bueno
+                <span class="scoreMuyBueno">&block;</span> 8-10 &rarr; {{ page.scale.s_8_10 }}
             </div>
         </div>
     </div>
