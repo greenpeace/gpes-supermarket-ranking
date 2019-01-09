@@ -18,4 +18,4 @@ Edita el fichero de tu lengua siguiendo las recomendaciones arriba.
 - <a href="https://github.com/greenpeace/gpes-supermarket-ranking/blob/master/eu-ES.html">eu-ES.html</a>
 - <a href="https://github.com/greenpeace/gpes-supermarket-ranking/blob/master/gl-ES.html">gl-ES.html</a>
 
-En unos minutos <a href="https://greenpeace.github.io/gpes-supermarket-ranking/es-ES.html">podrás previsualizar tus cambios</a>
+En unos minutos <a href="https://greenpeace.github.io/gpes-supermarket-ranking/">podrás previsualizar tus cambios</a> en la página de tu lengua.
