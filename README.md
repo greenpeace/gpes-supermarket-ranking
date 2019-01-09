@@ -8,6 +8,8 @@ Edita el fichero <a href="https://github.com/greenpeace/gpes-supermarket-ranking
 
 Edita solo después de los `:` y no cambies la cantidad de espacios a la izquierda de cada lengua.
 
+En unos minutos <a href="https://greenpeace.github.io/gpes-supermarket-ranking/es-ES.html#translate">podrás previsualizar tus cambios aquí</a>
+
 ## Cómo traducir el texto:
 
 Edita el fichero de tu lengua siguiendo las recomendaciones arriba.
