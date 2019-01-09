@@ -4,4 +4,4 @@
 
 ## Cómo corregir el texto:
 
-Edita el fichero <a href="https://github.com/greenpeace/gpes-supermarket-ranking/blob/master/gpes-blog.html">gpes-blog.html</a> a partir de la linea 4.
+Edita el fichero <a href="https://github.com/greenpeace/gpes-supermarket-ranking/blob/master/es-ES.html">es-ES.html</a> a partir de la linea 4.
