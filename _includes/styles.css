@@ -170,19 +170,7 @@
 
 /* Row background color */
 
-.rowAldi {
-    background-color: rgba(31, 39, 96 , 0.07); 
-}
-
-.rowDia {
-    background-color: rgba(173, 182, 203, 0.1);
-}
-
-.rowCarrefour {
-    background-color: rgba(31, 39, 96 , 0.07);
-}
-
-.rowMercadona {
+.rowEroski {
     background-color: rgba(173, 182, 203, 0.1);
 }
 
@@ -190,18 +178,31 @@
     background-color: rgba(31, 39, 96 , 0.07);
 }
 
-.rowEroski {
-    background-color: rgba(173, 182, 203, 0.1);
-}
-
 .rowAlcampo {
 
     background-color: rgba(173, 182, 203, 0.1);
 }
 
+.rowAldi {
+    background-color: rgba(31, 39, 96 , 0.07); 
+}
+
 .rowElCorteIngles {
+    background-color: rgba(173, 182, 203, 0.1);
+}
+
+.rowDia {
+    background-color: rgba(31, 39, 96 , 0.07); 
+}
+
+.rowMercadona {
+    background-color: rgba(173, 182, 203, 0.1);
+}
+
+.rowCarrefour {
     background-color: rgba(31, 39, 96 , 0.07);
 }
+
 
 /* Logos */
 
